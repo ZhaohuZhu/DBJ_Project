@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="CalculatorEAR">
+        <wb-resource deploy-path="/" source-path="/EarContent"/>
+        <dependent-module archiveName="CalculatorEJB.jar" deploy-path="/" handle="module:/resource/CalculatorEJB/CalculatorEJB">
+            <dependent-object/>
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="CalculatorEJBClient.jar" deploy-path="/" handle="module:/resource/CalculatorEJBClient/CalculatorEJBClient">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="Test-CalculatorBean.jar" deploy-path="/" handle="module:/resource/Test-CalculatorBean/Test-CalculatorBean">
+            <dependent-object/>
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+    </wb-module>
+</project-modules>

@@ -20,6 +20,7 @@ public class Answer implements Serializable {
 	// is the answer correct or not
 	private boolean Correct_or_not;
 	
+	
 	// actual answer
 	@Column(length = 300)
 	private String Text;
